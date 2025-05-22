@@ -1,0 +1,40 @@
+c:\Users\DLR_ACER\anaconda3\lib\site-packages\lightning\pytorch\utilities\parsing.py:209: Attribute 'loss' is an instance of `nn.Module` and is already saved during checkpointing. It is recommended to ignore them using `self.save_hyperparameters(ignore=['loss'])`.
+c:\Users\DLR_ACER\anaconda3\lib\site-packages\lightning\pytorch\utilities\parsing.py:209: Attribute 'logging_metrics' is an instance of `nn.Module` and is already saved during checkpointing. It is recommended to ignore them using `self.save_hyperparameters(ignore=['logging_metrics'])`.
+Using default `ModelCheckpoint`. Consider installing `litmodels` package to enable `LitModelCheckpoint` for automatic upload to the Lightning model registry.
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+c:\Users\DLR_ACER\anaconda3\lib\site-packages\lightning\pytorch\trainer\connectors\logger_connector\logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+You are using a CUDA device ('NVIDIA GeForce RTX 3070 Laptop GPU') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+   | Name                               | Type                            | Params | Mode 
+------------------------------------------------------------------------------------------------
+0  | loss                               | QuantileLoss                    | 0      | train
+1  | logging_metrics                    | ModuleList                      | 0      | train
+2  | input_embeddings                   | MultiEmbedding                  | 1      | train
+3  | prescalers                         | ModuleDict                      | 2.9 K  | train
+4  | static_variable_selection          | VariableSelectionNetwork        | 20.8 K | train
+5  | encoder_variable_selection         | VariableSelectionNetwork        | 347 K  | train
+6  | decoder_variable_selection         | VariableSelectionNetwork        | 13.7 K | train
+7  | static_context_variable_selection  | GatedResidualNetwork            | 16.8 K | train
+8  | static_context_initial_hidden_lstm | GatedResidualNetwork            | 16.8 K | train
+9  | static_context_initial_cell_lstm   | GatedResidualNetwork            | 16.8 K | train
+10 | static_context_enrichment          | GatedResidualNetwork            | 16.8 K | train
+11 | lstm_encoder                       | LSTM                            | 33.3 K | train
+12 | lstm_decoder                       | LSTM                            | 33.3 K | train
+13 | post_lstm_gate_encoder             | GatedLinearUnit                 | 8.3 K  | train
+14 | post_lstm_add_norm_encoder         | AddNorm                         | 128    | train
+15 | static_enrichment                  | GatedResidualNetwork            | 20.9 K | train
+16 | multihead_attn                     | InterpretableMultiHeadAttention | 10.4 K | train
+17 | post_attn_gate_norm                | GateAddNorm                     | 8.4 K  | train
+18 | pos_wise_ff                        | GatedResidualNetwork            | 16.8 K | train
+19 | pre_output_gate_norm               | GateAddNorm                     | 8.4 K  | train
+20 | output_layer                       | Linear                          | 65     | train
+------------------------------------------------------------------------------------------------
+588 K     Trainable params
+0         Non-trainable params
+588 K     Total params
+2.354     Total estimated model params size (MB)
+869       Modules in train mode
+0         Modules in eval mode

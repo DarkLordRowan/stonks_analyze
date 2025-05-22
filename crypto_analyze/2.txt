@@ -1,0 +1,192 @@
+[short] snap 1/3 epoch 1/15 loss 0.2074
+[short] snap 1/3 epoch 2/15 loss 0.1804
+[short] snap 1/3 epoch 3/15 loss 0.1580
+[short] snap 1/3 epoch 4/15 loss 0.1451
+[short] snap 1/3 epoch 5/15 loss 0.1362
+[short] snap 1/3 epoch 6/15 loss 0.1330
+[short] snap 1/3 epoch 7/15 loss 0.1215
+[short] snap 1/3 epoch 8/15 loss 0.1089
+[short] snap 1/3 epoch 9/15 loss 0.1041
+[short] snap 1/3 epoch 10/15 loss 0.0988
+[short] snap 1/3 epoch 11/15 loss 0.0952
+[short] snap 1/3 epoch 12/15 loss 0.0941
+[short] snap 1/3 epoch 13/15 loss 0.0906
+[short] snap 1/3 epoch 14/15 loss 0.0882
+[short] snap 1/3 epoch 15/15 loss 0.0845
+[short] snap 2/3 epoch 1/15 loss 0.0893
+[short] snap 2/3 epoch 2/15 loss 0.0882
+[short] snap 2/3 epoch 3/15 loss 0.0895
+[short] snap 2/3 epoch 4/15 loss 0.0885
+[short] snap 2/3 epoch 5/15 loss 0.0841
+[short] snap 2/3 epoch 6/15 loss 0.0832
+[short] snap 2/3 epoch 7/15 loss 0.0848
+[short] snap 2/3 epoch 8/15 loss 0.0829
+[short] snap 2/3 epoch 9/15 loss 0.0825
+[short] snap 2/3 epoch 10/15 loss 0.0841
+[short] snap 2/3 epoch 11/15 loss 0.0797
+[short] snap 2/3 epoch 12/15 loss 0.0803
+[short] snap 2/3 epoch 13/15 loss 0.0800
+[short] snap 2/3 epoch 14/15 loss 0.0716
+[short] snap 2/3 epoch 15/15 loss 0.0788
+[short] snap 3/3 epoch 1/15 loss 0.0662
+[short] snap 3/3 epoch 2/15 loss 0.0642
+[short] snap 3/3 epoch 3/15 loss 0.0612
+[short] snap 3/3 epoch 4/15 loss 0.0587
+[short] snap 3/3 epoch 5/15 loss 0.0540
+[short] snap 3/3 epoch 6/15 loss 0.0478
+[short] snap 3/3 epoch 7/15 loss 0.0497
+[short] snap 3/3 epoch 8/15 loss 0.0425
+[short] snap 3/3 epoch 9/15 loss 0.0434
+[short] snap 3/3 epoch 10/15 loss 0.0376
+[short] snap 3/3 epoch 11/15 loss 0.0356
+[short] snap 3/3 epoch 12/15 loss 0.0394
+[short] snap 3/3 epoch 13/15 loss 0.0351
+[short] snap 3/3 epoch 14/15 loss 0.0346
+[short] snap 3/3 epoch 15/15 loss 0.0350
+
+=== SHORT RESULTS ===
+Balanced Acc: 0.335   MCC: 0.042
+F1 per class: {'Long': 0.06037735849056603, 'Hold': 0.823529411764706, 'Short': 0.06711409395973154}
+Confusion matrix:
+        Long  Hold  Short
+Long      8   195     36
+Hold     11  1029     90
+Short     7   145     10
+              precision    recall  f1-score   support
+
+        Long       0.31      0.03      0.06       239
+        Hold       0.75      0.91      0.82      1130
+       Short       0.07      0.06      0.07       162
+
+    accuracy                           0.68      1531
+   macro avg       0.38      0.34      0.32      1531
+weighted avg       0.61      0.68      0.62      1531
+
+[medium] snap 1/3 epoch 1/15 loss 0.2032
+[medium] snap 1/3 epoch 2/15 loss 0.1654
+[medium] snap 1/3 epoch 3/15 loss 0.1391
+[medium] snap 1/3 epoch 4/15 loss 0.1162
+[medium] snap 1/3 epoch 5/15 loss 0.1089
+[medium] snap 1/3 epoch 6/15 loss 0.0921
+[medium] snap 1/3 epoch 7/15 loss 0.0863
+[medium] snap 1/3 epoch 8/15 loss 0.0739
+[medium] snap 1/3 epoch 9/15 loss 0.0739
+[medium] snap 1/3 epoch 10/15 loss 0.0633
+[medium] snap 1/3 epoch 11/15 loss 0.0630
+[medium] snap 1/3 epoch 12/15 loss 0.0569
+[medium] snap 1/3 epoch 13/15 loss 0.0580
+[medium] snap 1/3 epoch 14/15 loss 0.0556
+[medium] snap 1/3 epoch 15/15 loss 0.0546
+[medium] snap 2/3 epoch 1/15 loss 0.0581
+[medium] snap 2/3 epoch 2/15 loss 0.0598
+[medium] snap 2/3 epoch 3/15 loss 0.0565
+[medium] snap 2/3 epoch 4/15 loss 0.0544
+[medium] snap 2/3 epoch 5/15 loss 0.0561
+[medium] snap 2/3 epoch 6/15 loss 0.0580
+[medium] snap 2/3 epoch 7/15 loss 0.0556
+[medium] snap 2/3 epoch 8/15 loss 0.0543
+[medium] snap 2/3 epoch 9/15 loss 0.0576
+[medium] snap 2/3 epoch 10/15 loss 0.0560
+[medium] snap 2/3 epoch 11/15 loss 0.0562
+[medium] snap 2/3 epoch 12/15 loss 0.0500
+[medium] snap 2/3 epoch 13/15 loss 0.0478
+[medium] snap 2/3 epoch 14/15 loss 0.0473
+[medium] snap 2/3 epoch 15/15 loss 0.0453
+[medium] snap 3/3 epoch 1/15 loss 0.0419
+[medium] snap 3/3 epoch 2/15 loss 0.0388
+[medium] snap 3/3 epoch 3/15 loss 0.0383
+[medium] snap 3/3 epoch 4/15 loss 0.0374
+[medium] snap 3/3 epoch 5/15 loss 0.0332
+[medium] snap 3/3 epoch 6/15 loss 0.0305
+[medium] snap 3/3 epoch 7/15 loss 0.0294
+[medium] snap 3/3 epoch 8/15 loss 0.0281
+[medium] snap 3/3 epoch 9/15 loss 0.0236
+[medium] snap 3/3 epoch 10/15 loss 0.0229
+[medium] snap 3/3 epoch 11/15 loss 0.0211
+[medium] snap 3/3 epoch 12/15 loss 0.0223
+[medium] snap 3/3 epoch 13/15 loss 0.0219
+[medium] snap 3/3 epoch 14/15 loss 0.0194
+[medium] snap 3/3 epoch 15/15 loss 0.0206
+
+=== MEDIUM RESULTS ===
+Balanced Acc: 0.336   MCC: 0.030
+F1 per class: {'Long': 0.1330376940133038, 'Hold': 0.7825349724459516, 'Short': 0.0}
+Confusion matrix:
+        Long  Hold  Short
+Long     30   144      0
+Hold    182   923      0
+Short    65   187      0
+              precision    recall  f1-score   support
+
+        Long       0.11      0.17      0.13       174
+        Hold       0.74      0.84      0.78      1105
+       Short       0.00      0.00      0.00       252
+
+    accuracy                           0.62      1531
+   macro avg       0.28      0.34      0.31      1531
+weighted avg       0.54      0.62      0.58      1531
+
+[long] snap 1/3 epoch 1/15 loss 0.2136
+[long] snap 1/3 epoch 2/15 loss 0.1800
+[long] snap 1/3 epoch 3/15 loss 0.1523
+[long] snap 1/3 epoch 4/15 loss 0.1240
+[long] snap 1/3 epoch 5/15 loss 0.1117
+[long] snap 1/3 epoch 6/15 loss 0.0956
+[long] snap 1/3 epoch 7/15 loss 0.0805
+[long] snap 1/3 epoch 8/15 loss 0.0784
+[long] snap 1/3 epoch 9/15 loss 0.0683
+[long] snap 1/3 epoch 10/15 loss 0.0623
+[long] snap 1/3 epoch 11/15 loss 0.0599
+[long] snap 1/3 epoch 12/15 loss 0.0586
+[long] snap 1/3 epoch 13/15 loss 0.0548
+[long] snap 1/3 epoch 14/15 loss 0.0538
+[long] snap 1/3 epoch 15/15 loss 0.0507
+[long] snap 2/3 epoch 1/15 loss 0.0513
+[long] snap 2/3 epoch 2/15 loss 0.0539
+[long] snap 2/3 epoch 3/15 loss 0.0546
+[long] snap 2/3 epoch 4/15 loss 0.0570
+[long] snap 2/3 epoch 5/15 loss 0.0545
+[long] snap 2/3 epoch 6/15 loss 0.0491
+[long] snap 2/3 epoch 7/15 loss 0.0543
+[long] snap 2/3 epoch 8/15 loss 0.0483
+[long] snap 2/3 epoch 9/15 loss 0.0507
+[long] snap 2/3 epoch 10/15 loss 0.0471
+[long] snap 2/3 epoch 11/15 loss 0.0488
+[long] snap 2/3 epoch 12/15 loss 0.0461
+[long] snap 2/3 epoch 13/15 loss 0.0431
+[long] snap 2/3 epoch 14/15 loss 0.0432
+[long] snap 2/3 epoch 15/15 loss 0.0416
+[long] snap 3/3 epoch 1/15 loss 0.0387
+[long] snap 3/3 epoch 2/15 loss 0.0350
+[long] snap 3/3 epoch 3/15 loss 0.0310
+[long] snap 3/3 epoch 4/15 loss 0.0308
+[long] snap 3/3 epoch 5/15 loss 0.0286
+[long] snap 3/3 epoch 6/15 loss 0.0267
+[long] snap 3/3 epoch 7/15 loss 0.0237
+[long] snap 3/3 epoch 8/15 loss 0.0255
+[long] snap 3/3 epoch 9/15 loss 0.0228
+[long] snap 3/3 epoch 10/15 loss 0.0223
+[long] snap 3/3 epoch 11/15 loss 0.0207
+[long] snap 3/3 epoch 12/15 loss 0.0196
+[long] snap 3/3 epoch 13/15 loss 0.0197
+[long] snap 3/3 epoch 14/15 loss 0.0175
+[long] snap 3/3 epoch 15/15 loss 0.0191
+
+=== LONG RESULTS ===
+Balanced Acc: 0.387   MCC: 0.008
+F1 per class: {'Long': 0.008888888888888889, 'Hold': 0.6039654295882054, 'Short': 0.2222222222222222}
+Confusion matrix:
+        Long  Hold  Short
+Long      1   155     47
+Hold     17   594    560
+Short     4    47     94
+              precision    recall  f1-score   support
+
+        Long       0.05      0.00      0.01       203
+        Hold       0.75      0.51      0.60      1171
+       Short       0.13      0.65      0.22       145
+
+    accuracy                           0.45      1519
+   macro avg       0.31      0.39      0.28      1519
+weighted avg       0.59      0.45      0.49      1519
+

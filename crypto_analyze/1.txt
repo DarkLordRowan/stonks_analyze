@@ -1,0 +1,162 @@
+short  (7951, 42) dist: {1: 0.572, 2: 0.23, 0: 0.198}
+medium (7951, 42) dist: {0: 0.389, 2: 0.371, 1: 0.241}
+long   (7895, 42) dist: {0: 0.486, 2: 0.436, 1: 0.078}
+short  X=(7891, 60, 16) y=(7891,) cw={0: 1.69044558697515, 1: 0.5803912915563401, 2: 1.4588648548715104}
+medium X=(7891, 60, 16) y=(7891,) cw={0: 0.8604296150910479, 1: 1.3785814116002795, 2: 0.8989519252677147}
+long   X=(7835, 60, 16) y=(7835,) cw={0: 0.6900044033465433, 1: 4.2259978425026965, 2: 0.760975135975136}
+[short] Epoch 1/40 — Loss: 0.3377
+[short] Epoch 2/40 — Loss: 0.3329
+[short] Epoch 3/40 — Loss: 0.3067
+[short] Epoch 4/40 — Loss: 0.3141
+[short] Epoch 5/40 — Loss: 0.3027
+[short] Epoch 6/40 — Loss: 0.2989
+[short] Epoch 7/40 — Loss: 0.3027
+[short] Epoch 8/40 — Loss: 0.2857
+[short] Epoch 9/40 — Loss: 0.2883
+[short] Epoch 10/40 — Loss: 0.2773
+[short] Epoch 11/40 — Loss: 0.2704
+[short] Epoch 12/40 — Loss: 0.2600
+[short] Epoch 13/40 — Loss: 0.2570
+[short] Epoch 14/40 — Loss: 0.2369
+[short] Epoch 15/40 — Loss: 0.2307
+[short] Epoch 16/40 — Loss: 0.2142
+[short] Epoch 17/40 — Loss: 0.2118
+[short] Epoch 18/40 — Loss: 0.1995
+[short] Epoch 19/40 — Loss: 0.2005
+[short] Epoch 20/40 — Loss: 0.1732
+[short] Epoch 21/40 — Loss: 0.1673
+[short] Epoch 22/40 — Loss: 0.1532
+[short] Epoch 23/40 — Loss: 0.1558
+[short] Epoch 24/40 — Loss: 0.1432
+[short] Epoch 25/40 — Loss: 0.1400
+[short] Epoch 26/40 — Loss: 0.1382
+[short] Epoch 27/40 — Loss: 0.1328
+[short] Epoch 28/40 — Loss: 0.1263
+[short] Epoch 29/40 — Loss: 0.1312
+[short] Epoch 30/40 — Loss: 0.1140
+[short] Epoch 31/40 — Loss: 0.1189
+[short] Epoch 32/40 — Loss: 0.1128
+[short] Epoch 33/40 — Loss: 0.1165
+[short] Epoch 34/40 — Loss: 0.1153
+[short] Epoch 35/40 — Loss: 0.1202
+[short] Epoch 36/40 — Loss: 0.1048
+[short] Epoch 37/40 — Loss: 0.1137
+[short] Epoch 38/40 — Loss: 0.1075
+[short] Epoch 39/40 — Loss: 0.1142
+[short] Epoch 40/40 — Loss: 0.1136
+
+=== SHORT — Balanced Accuracy: 0.320 ===
+              precision    recall  f1-score   support
+
+        Long       0.26      0.14      0.18       344
+        Hold       0.59      0.81      0.68       929
+       Short       0.03      0.01      0.02       306
+
+    accuracy                           0.51      1579
+   macro avg       0.29      0.32      0.29      1579
+weighted avg       0.41      0.51      0.44      1579
+
+[medium] Epoch 1/40 — Loss: 0.4537
+[medium] Epoch 2/40 — Loss: 0.4188
+[medium] Epoch 3/40 — Loss: 0.4180
+[medium] Epoch 4/40 — Loss: 0.4081
+[medium] Epoch 5/40 — Loss: 0.3888
+[medium] Epoch 6/40 — Loss: 0.3505
+[medium] Epoch 7/40 — Loss: 0.3171
+[medium] Epoch 8/40 — Loss: 0.2691
+[medium] Epoch 9/40 — Loss: 0.2510
+[medium] Epoch 10/40 — Loss: 0.2255
+[medium] Epoch 11/40 — Loss: 0.2105
+[medium] Epoch 12/40 — Loss: 0.2008
+[medium] Epoch 13/40 — Loss: 0.1992
+[medium] Epoch 14/40 — Loss: 0.1862
+[medium] Epoch 15/40 — Loss: 0.1839
+[medium] Epoch 16/40 — Loss: 0.1789
+[medium] Epoch 17/40 — Loss: 0.1659
+[medium] Epoch 18/40 — Loss: 0.1567
+[medium] Epoch 19/40 — Loss: 0.1552
+[medium] Epoch 20/40 — Loss: 0.1479
+[medium] Epoch 21/40 — Loss: 0.1412
+[medium] Epoch 22/40 — Loss: 0.1466
+[medium] Epoch 23/40 — Loss: 0.1303
+[medium] Epoch 24/40 — Loss: 0.1395
+[medium] Epoch 25/40 — Loss: 0.1372
+[medium] Epoch 26/40 — Loss: 0.1202
+[medium] Epoch 27/40 — Loss: 0.1183
+[medium] Epoch 28/40 — Loss: 0.1204
+[medium] Epoch 29/40 — Loss: 0.1129
+[medium] Epoch 30/40 — Loss: 0.1130
+[medium] Epoch 31/40 — Loss: 0.1164
+[medium] Epoch 32/40 — Loss: 0.1039
+[medium] Epoch 33/40 — Loss: 0.1026
+[medium] Epoch 34/40 — Loss: 0.1048
+[medium] Epoch 35/40 — Loss: 0.0990
+[medium] Epoch 36/40 — Loss: 0.0969
+[medium] Epoch 37/40 — Loss: 0.1021
+[medium] Epoch 38/40 — Loss: 0.1007
+[medium] Epoch 39/40 — Loss: 0.0986
+[medium] Epoch 40/40 — Loss: 0.0991
+
+=== MEDIUM — Balanced Accuracy: 0.381 ===
+              precision    recall  f1-score   support
+
+        Long       0.39      0.58      0.47       579
+        Hold       0.27      0.42      0.33       368
+       Short       0.59      0.15      0.24       632
+
+    accuracy                           0.37      1579
+   macro avg       0.42      0.38      0.34      1579
+weighted avg       0.44      0.37      0.34      1579
+
+[long] Epoch 1/40 — Loss: 0.2935
+[long] Epoch 2/40 — Loss: 0.2793
+[long] Epoch 3/40 — Loss: 0.2676
+[long] Epoch 4/40 — Loss: 0.2673
+[long] Epoch 5/40 — Loss: 0.2629
+[long] Epoch 6/40 — Loss: 0.2543
+[long] Epoch 7/40 — Loss: 0.2667
+[long] Epoch 8/40 — Loss: 0.2265
+[long] Epoch 9/40 — Loss: 0.2320
+[long] Epoch 10/40 — Loss: 0.2303
+[long] Epoch 11/40 — Loss: 0.2082
+[long] Epoch 12/40 — Loss: 0.1888
+[long] Epoch 13/40 — Loss: 0.1732
+[long] Epoch 14/40 — Loss: 0.1576
+[long] Epoch 15/40 — Loss: 0.1525
+[long] Epoch 16/40 — Loss: 0.1438
+[long] Epoch 17/40 — Loss: 0.1346
+[long] Epoch 18/40 — Loss: 0.1273
+[long] Epoch 19/40 — Loss: 0.1299
+[long] Epoch 20/40 — Loss: 0.1307
+[long] Epoch 21/40 — Loss: 0.1324
+[long] Epoch 22/40 — Loss: 0.1070
+[long] Epoch 23/40 — Loss: 0.0978
+[long] Epoch 24/40 — Loss: 0.0978
+[long] Epoch 25/40 — Loss: 0.1061
+[long] Epoch 26/40 — Loss: 0.0964
+[long] Epoch 27/40 — Loss: 0.0949
+[long] Epoch 28/40 — Loss: 0.0828
+[long] Epoch 29/40 — Loss: 0.0953
+[long] Epoch 30/40 — Loss: 0.0878
+[long] Epoch 31/40 — Loss: 0.0870
+[long] Epoch 32/40 — Loss: 0.0852
+[long] Epoch 33/40 — Loss: 0.0752
+[long] Epoch 34/40 — Loss: 0.0783
+[long] Epoch 35/40 — Loss: 0.0799
+[long] Epoch 36/40 — Loss: 0.0896
+[long] Epoch 37/40 — Loss: 0.0785
+[long] Epoch 38/40 — Loss: 0.0776
+[long] Epoch 39/40 — Loss: 0.0853
+[long] Epoch 40/40 — Loss: 0.0805
+
+=== LONG — Balanced Accuracy: 0.281 ===
+              precision    recall  f1-score   support
+
+        Long       0.43      0.26      0.32       804
+        Hold       0.00      0.00      0.00       172
+       Short       0.32      0.58      0.41       591
+
+    accuracy                           0.35      1567
+   macro avg       0.25      0.28      0.25      1567
+weighted avg       0.34      0.35      0.32      1567
+
